@@ -1,0 +1,46 @@
+body main{
+    display: flex;
+} 
+main{
+    flex-direction: row;
+    flex: auto;
+}
+article1{
+    display: flex;
+    flex: 2;
+    overflow-y: auto;
+    width: 60%;
+}
+aside{
+    display: flex;
+    flex: 1;
+    overflow-y: auto;
+    width: 60%;
+}
+header{
+    background-color: red;
+    display: block;
+    width: 100%;
+    padding:20px 0;
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    overflow-y: auto;
+}
+footer{
+    background-color: blue;
+    display: block;
+    width: 100%;
+    padding:20px 0;
+    margin: 0;
+    text-align: center;
+    color: #fff;
+}
+main a{
+    display: block;
+    width: 100%;
+}
+body{
+    border: 20px solid green;
+    background-color: gray;
+}

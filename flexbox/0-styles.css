@@ -179,7 +179,7 @@
   
   /* Grid
       ============================= */
-  row{
+  .row{
     display: flex;
   }
   ul.row {
@@ -187,7 +187,7 @@
     padding: 0;
     list-style: none;
   }
-  
+
   [class*='col-'] {
     padding: 0.5rem;
   }

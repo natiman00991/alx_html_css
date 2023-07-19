@@ -1,0 +1,88 @@
+/* styles.css */
+
+/* Reset CSS Styling */
+html, body, h1, p, ul, li, a, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  
+  /* Use Variables */
+  :root {
+    --primary-color: #333333;
+    --secondary-color: #666666;
+    /* Add more variables as needed */
+  }
+  
+  /* Simple/As Generic as Possible CSS Selectors */
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .header {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    padding: 20px 0;
+  }
+  
+  .logo {
+    width: 150px;
+    height: auto;
+  }
+  
+  .navigation {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .menu {
+    list-style: none;
+  }
+  
+  .menu li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  .menu li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .hero {
+    background-image: url("path/to/hero-image.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    padding: 200px 0;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--secondary-color);
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: opacity 0.3s ease;
+  }
+  
+  .cta-button:hover,
+  .cta-button:active {
+    opacity: 0.9;
+  }
